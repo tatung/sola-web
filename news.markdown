@@ -1,17 +1,16 @@
 ---
 layout: single
-title: "News"
+title: ""
 permalink: /news/
 ---
 
-## News & Updates
-
-This page contains latest news and updates from the lab.
-
 ### Latest News
 
-- [News items to be added]
+- 2025: Multiple papers accepted at ICRA and IROS on soft robotics and robot learning.
+- Ongoing: International collaboration projects on foundation models for soft-bodied robots.
+- Site update: SOLA Group website migrated and expanded with dedicated sections.
 
 ### Announcements
 
-- [Announcements to be added]
+- Student recruitment: Master/PhD opportunities are announced on [tungtd.com](https://tungtd.com/).
+- Postdoctoral opportunities may open based on project timelines and grant cycles.

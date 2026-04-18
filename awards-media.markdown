@@ -1,21 +1,25 @@
 ---
 layout: single
-title: "Awards & Media"
+title: ""
 permalink: /awards-media/
 ---
 
-## Awards & Media
-
-This page highlights our awards, recognitions, and media appearances.
+Highlights of recognitions and media visibility related to SOLA Group work.
 
 ### Awards
 
-- [Awards to be added]
+- 2026: Best Poster Award, IEEE RoboSoft Workshop: “Living with Robots Safely: Embodying Asimov’s First Law through Soft Robotics.”
+- 2021: Best Full Paper Award, ACM IDC
+- 2018: Best Demo Award, ACM UbiComp
+- 2016: First Prize, SBCloud Hackathon (SoftBank)
+- 2013: Champion, Tokyo Start-up Weekend Contest
+- 2012: Runner-up, Vietnam Microsoft Imagine Cup
 
 ### Media Coverage
 
-- [Media coverage to be added]
+- Research outputs have appeared in major HCI and robotics venues (ACM CHI, UbiComp, ICRA, IROS).
+- Project and publication updates are maintained on [tungtd.com](https://tungtd.com/).
 
 ### Press Releases
 
-- [Press releases to be added]
+- New press or outreach posts are announced through our News page and profile links.
