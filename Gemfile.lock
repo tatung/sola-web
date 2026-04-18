@@ -36,7 +36,6 @@ GEM
       logger
     faraday-net_http (3.4.2)
       net-http (~> 0.5)
-    ffi (1.17.4)
     ffi (1.17.4-aarch64-linux-gnu)
     ffi (1.17.4-aarch64-linux-musl)
     ffi (1.17.4-arm-linux-gnu)
@@ -224,7 +223,6 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
     mercenary (0.3.6)
-    mini_portile2 (2.8.9)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -239,9 +237,6 @@ GEM
     minitest (5.27.0)
     net-http (0.9.1)
       uri (>= 0.11.1)
-    nokogiri (1.19.2)
-      mini_portile2 (~> 2.8.2)
-      racc (~> 1.4)
     nokogiri (1.19.2-aarch64-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.19.2-aarch64-linux-musl)
@@ -300,7 +295,6 @@ PLATFORMS
   arm-linux-gnu
   arm-linux-musl
   arm64-darwin
-  ruby
   x86_64-darwin
   x86_64-linux
   x86_64-linux-gnu
@@ -332,7 +326,6 @@ CHECKSUMS
   execjs (2.10.1) sha256=abe0ae028467eb8e30c10814eb934d07876a691aae7e803d813b7ce5a75e73f1
   faraday (2.14.1) sha256=a43cceedc1e39d188f4d2cdd360a8aaa6a11da0c407052e426ba8d3fb42ef61c
   faraday-net_http (3.4.2) sha256=f147758260d3526939bf57ecf911682f94926a3666502e24c69992765875906c
-  ffi (1.17.4) sha256=bcd1642e06f0d16fc9e09ac6d49c3a7298b9789bcb58127302f934e437d60acf
   ffi (1.17.4-aarch64-linux-gnu) sha256=b208f06f91ffd8f5e1193da3cae3d2ccfc27fc36fba577baf698d26d91c080df
   ffi (1.17.4-aarch64-linux-musl) sha256=9286b7a615f2676245283aef0a0a3b475ae3aae2bb5448baace630bb77b91f39
   ffi (1.17.4-arm-linux-gnu) sha256=d6dbddf7cb77bf955411af5f187a65b8cd378cb003c15c05697f5feee1cb1564
@@ -392,12 +385,10 @@ CHECKSUMS
   listen (3.10.0) sha256=c6e182db62143aeccc2e1960033bebe7445309c7272061979bb098d03760c9d2
   logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
   mercenary (0.3.6) sha256=2a084b18f5692c86a633e185d5311ba6d11fc46c802eb414ae05368178078a82
-  mini_portile2 (2.8.9) sha256=0cd7c7f824e010c072e33f68bc02d85a00aeb6fce05bb4819c03dfd3c140c289
   minima (2.5.1) sha256=520e52bc631fb16cbb8100660f6caa44f97859e2fa7e397d508deb18739567be
   minimal-mistakes-jekyll (4.28.0) sha256=97d38e5ae90d8d9192bb0c9dc577ed41783bd3842a506429842e984e0877ecd7
   minitest (5.27.0) sha256=2d3b17f8a36fe7801c1adcffdbc38233b938eb0b4966e97a6739055a45fa77d5
   net-http (0.9.1) sha256=25ba0b67c63e89df626ed8fac771d0ad24ad151a858af2cc8e6a716ca4336996
-  nokogiri (1.19.2) sha256=38fdd8b59db3d5ea9e7dfb14702e882b9bf819198d5bf976f17ebce12c481756
   nokogiri (1.19.2-aarch64-linux-gnu) sha256=c34d5c8208025587554608e98fd88ab125b29c80f9352b821964e9a5d5cfbd19
   nokogiri (1.19.2-aarch64-linux-musl) sha256=7f6b4b0202d507326841a4f790294bf75098aef50c7173443812e3ac5cb06515
   nokogiri (1.19.2-arm-linux-gnu) sha256=b7fa1139016f3dc850bda1260988f0d749934a939d04ef2da13bec060d7d5081
