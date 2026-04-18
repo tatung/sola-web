@@ -19,6 +19,10 @@
       var target = normalize(href);
       var isActive = current === target || (target !== "/" && current.indexOf(target) === 0);
 
+      if (!isActive && current === "/" && target === "/about/") {
+        isActive = true;
+      }
+
       if (isActive) {
         link.classList.add("is-active");
         link.setAttribute("aria-current", "page");
