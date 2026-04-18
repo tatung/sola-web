@@ -7,6 +7,10 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+body {
+  font-size: 0.7rem;
+}
+
 /* Active menu item underline + color */
 .greedy-nav .visible-links li.is-active > a,
 .greedy-nav .visible-links a.is-active {
