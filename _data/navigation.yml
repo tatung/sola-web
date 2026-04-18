@@ -1,0 +1,16 @@
+# Main navigation
+main:
+  - title: "About"
+    url: /about/
+  - title: "Members"
+    url: /members/
+  - title: "Research"
+    url: /research/
+  - title: "Publication"
+    url: /publication/
+  - title: "Awards & Media"
+    url: /awards-media/
+  - title: "News"
+    url: /news/
+  - title: "Access"
+    url: /access/
