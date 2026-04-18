@@ -29,8 +29,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
 
-# Logo for minimal-mistakes theme
-site_logo: /assets/images/sola_logo.png
+# Header branding for minimal-mistakes theme
+logo: /assets/images/sola_logo.png
+masthead_title: SOLA Group
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -41,6 +42,9 @@ navigations: _data/navigation.yml
 plugins:
   - jekyll-include-cache
   - jekyll-feed
+
+after_footer_scripts:
+  - /assets/js/nav-active.js
 
 # Exclude from processing.
 # The following items will not be processed, by default.
