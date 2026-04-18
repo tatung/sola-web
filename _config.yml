@@ -30,12 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-# theme: minima
-# theme: minimal-mistakes-jekyll 
-# plugins:
-#   - jekyll-feed
-
-remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+theme: minimal-mistakes-jekyll
 
 # Navigation
 navigations: _data/navigation.yml
@@ -43,7 +38,6 @@ navigations: _data/navigation.yml
 plugins:
   - jekyll-include-cache
   - jekyll-feed
-  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
