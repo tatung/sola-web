@@ -18,3 +18,25 @@ search: false
 .greedy-nav .visible-links a.is-active:before {
   transform: scaleX(1) translate3d(0, 0, 0);
 }
+
+.page__footer footer,
+.page__footer-follow,
+.page__footer-copyright,
+.footer__brand {
+  text-align: center;
+}
+
+.page__footer-follow .social-icons {
+  justify-content: center;
+}
+
+.footer__brand {
+  margin-bottom: 1rem;
+}
+
+.footer__brand-logo {
+  display: inline-block;
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+}

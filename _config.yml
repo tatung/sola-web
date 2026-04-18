@@ -43,6 +43,9 @@ plugins:
   - jekyll-include-cache
   - jekyll-feed
 
+atom_feed:
+  hide: true
+
 after_footer_scripts:
   - /assets/js/nav-active.js
 
