@@ -197,6 +197,14 @@ body {
   }
 }
 
+.research-slide:visited,
+.research-slide:hover,
+.research-slide:focus,
+.research-slide:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .research-slide__caption {
   position: absolute;
   left: 0;
@@ -273,7 +281,10 @@ body {
   align-items: center;
   justify-content: center;
   z-index: 4;
-  transition: background-color 0.2s ease, border-color 0.2s ease;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
 
   &:hover {
     background: rgba(0, 0, 0, 0.62);
@@ -284,6 +295,13 @@ body {
     outline: 2px solid #ffffff;
     outline-offset: 2px;
   }
+}
+
+.research-slider:hover .research-slider__nav,
+.research-slider:focus-within .research-slider__nav {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .research-slider__nav--prev {
