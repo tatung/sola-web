@@ -4,20 +4,21 @@ title: ""
 permalink: /research/
 ---
 
-Our work sits at the intersection of **soft robotics**, **digital fabrication**, and **intelligent design systems**.
+Our research is at the intersection of **digital fabrication**, **soft robotics**, and **human-computer interaction**.
 
-### Active Research Areas
+## Latest Works
 
-- Foundation models for soft-bodied robot design, fabrication, and control
-- Printable structures and bistable mechanisms for soft locomotion
-- Flexible/inkjet-printed circuits for robotic sensors and actuators
-- Data-driven modeling of soft actuators and deformable systems
-- Human-centered tools for rapid prototyping of interactive physical systems
-
-### Selected Grants and Projects
-
-- 2024-2027: ISPF International Collaboration Awards (UK-Japan), Japan-side PI
-- 2023-2026: Grant-in-Aid for Scientific Research (B), PI
-- 2025-2027: Hirose Foundation Research Grant, PI
-
-For full project details, visit [tungtd.com](https://tungtd.com/).
+<div class="research-grid">
+{% assign research_items = site.research | sort: "order" %}
+{% for item in research_items %}
+  <a class="research-card" href="{{ item.url | relative_url }}">
+    {% if item.image %}
+    <img src="{{ item.image }}" alt="{{ item.title }}" loading="lazy" />
+    {% endif %}
+    <div class="research-card__body">
+      <strong>{{ item.title }}</strong>
+      <span class="research-card__venue">{{ item.venue }}</span>
+    </div>
+  </a>
+{% endfor %}
+</div>

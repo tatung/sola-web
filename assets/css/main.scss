@@ -44,3 +44,222 @@ body {
   width: 100%;
   height: auto;
 }
+
+/* Research grid — 3 columns on PC, 2 on tablet, 1 on mobile */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-top: 1rem;
+
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.research-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    text-decoration: none;
+  }
+
+  img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.research-card__body {
+  padding: 0.6rem 0.75rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.research-card__venue {
+  font-size: 0.78rem;
+  color: #6b7280;
+}
+
+.research-slider {
+  margin: 1rem 0 1.5rem;
+}
+
+.landing-page .page {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.research-slider--fullbleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: 0;
+  margin-bottom: 1.1rem;
+}
+
+.research-slider__viewport {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #0f172a;
+  min-height: 260px;
+}
+
+.research-slider--fullbleed .research-slider__viewport {
+  border-radius: 0;
+  min-height: min(56vw, 620px);
+}
+
+.research-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.45s ease;
+  text-decoration: none;
+  color: #ffffff;
+
+  &.is-active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    min-height: 260px;
+  }
+}
+
+.research-slide__caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0.95rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0));
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+
+  strong {
+    font-size: 0.98rem;
+    line-height: 1.25;
+  }
+
+  span {
+    font-size: 0.8rem;
+    color: #e5e7eb;
+  }
+}
+
+.research-slider__controls {
+  display: none;
+}
+
+.research-slider__dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0.85rem;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  z-index: 5;
+}
+
+.research-slider__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.38);
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.research-slider__dot.is-active {
+  background: #ffffff;
+  transform: scale(1.16);
+}
+
+.research-slider__dot:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.research-slider__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.42);
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.62);
+    border-color: rgba(255, 255, 255, 0.88);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+  }
+}
+
+.research-slider__nav--prev {
+  left: 0.85rem;
+}
+
+.research-slider__nav--next {
+  right: 0.85rem;
+}
+
+@media (min-width: 901px) {
+  .research-slider__viewport {
+    min-height: 340px;
+  }
+
+  .research-slider--fullbleed .research-slider__viewport {
+    min-height: min(42vw, 640px);
+  }
+
+  .research-slide img {
+    min-height: 340px;
+  }
+
+  .research-slider--fullbleed .research-slide img {
+    min-height: min(42vw, 640px);
+  }
+}

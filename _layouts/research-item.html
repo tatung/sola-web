@@ -1,0 +1,17 @@
+---
+layout: single
+---
+
+<div class="research-item-detail">
+  {% if page.image %}
+  <img src="{{ page.image }}" alt="{{ page.title }}" style="width:100%;max-width:720px;height:auto;border-radius:8px;margin-bottom:1.5rem;" />
+  {% endif %}
+
+  <p class="research-item-venue"><strong>{{ page.venue }}</strong> &middot; {{ page.year }}</p>
+
+  {{ content }}
+
+  {% if page.external_url %}
+  <p><a href="{{ page.external_url }}" target="_blank" rel="noopener">View project &rarr;</a></p>
+  {% endif %}
+</div>

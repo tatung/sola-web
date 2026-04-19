@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Tung Laboratory
-email: your-email@example.com
+email: tung@sfc.keio.ac.jp
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -39,6 +39,18 @@ theme: minimal-mistakes-jekyll
 # Navigation
 navigations: _data/navigation.yml
 
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: research-item
+
 plugins:
   - jekyll-include-cache
   - jekyll-feed
@@ -48,6 +60,7 @@ atom_feed:
 
 after_footer_scripts:
   - /assets/js/nav-active.js
+  - /assets/js/research-slider.js
 
 # Exclude from processing.
 # The following items will not be processed, by default.

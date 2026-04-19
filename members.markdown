@@ -4,12 +4,12 @@ title: ""
 permalink: /members/
 ---
 
-### Faculty
+## Faculty
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;">
 
 	<div>
-		<img src="/assets/images/members/placeholder.svg" alt="Tung D. Ta" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
+		<img src="/assets/images/members/tung_id_sq.png" alt="Tung D. Ta" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Tung D. Ta</strong><br>
 		Associate Professor<br>
 		tung
@@ -24,9 +24,9 @@ permalink: /members/
 
 </div>
 
-### Master Course
+## Master Course
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
 
 	<div>
 		<img src="/assets/images/members/placeholder.svg" alt="Tran Ngoc Duy" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
@@ -37,9 +37,9 @@ permalink: /members/
 
 </div>
 
-### Undergraduate
+## Undergraduate
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
 
 	<div>
 		<img src="/assets/images/members/placeholder.svg" alt="Duong Minh Ngoc" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
@@ -71,7 +71,7 @@ permalink: /members/
 
 </div>
 
-### Alumni
+## Alumni
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
 
@@ -81,8 +81,3 @@ permalink: /members/
 	</div>
 
 </div>
-
-### Recruitment
-
-We periodically recruit Master/PhD students and postdoctoral researchers.
-- For inquiries, please contact via the email listed on the Access page

@@ -4,11 +4,11 @@ title: ""
 permalink: /awards-media/
 ---
 
-Highlights of recognitions and media visibility related to SOLA Group work.
+Highlights of recognitions and media visibility related to SoLa group work.
 
 ### Awards
 
-- 2026: Best Poster Award, IEEE RoboSoft Workshop: “Living with Robots Safely: Embodying Asimov’s First Law through Soft Robotics.”
+- 2026: Best Poster Award, IEEE RoboSoft 2026 Workshop: “Living with Robots Safely: Embodying Asimov’s First Law through Soft Robotics.”
 - 2021: Best Full Paper Award, ACM IDC
 - 2018: Best Demo Award, ACM UbiComp
 - 2016: First Prize, SBCloud Hackathon (SoftBank)
