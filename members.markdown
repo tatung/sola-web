@@ -7,7 +7,7 @@ classes: members-page
 
 ## Faculty
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
 
 	<div>
 		<img src="/assets/images/members/TaDucTung.jpeg" alt="Tung D. Ta" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
