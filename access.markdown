@@ -15,7 +15,6 @@ permalink: /access/
 
 - Main profile and updates: [https://tungtd.com](https://tungtd.com/)
 - GitHub: [https://github.com/tatung](https://github.com/tatung)
-- Previous lab page: [https://www.csg.ci.i.u-tokyo.ac.jp](https://www.csg.ci.i.u-tokyo.ac.jp/)
 
 ## Contact Information
 

@@ -13,14 +13,14 @@ classes: members-page
 		<img src="/assets/images/members/TaDucTung.jpeg" alt="Tung D. Ta" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Tung D. Ta</strong><br>
 		Associate Professor<br>
-		tung
+		<code>tung</code>
 	</div>
 
 	<div>
 		<img src="/assets/images/members/YemanFan.jpeg" alt="Yeman Fan" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Yeman Fan</strong><br>
 		Project Researcher<br>
-		yemanfan
+		<code>yemanfan</code>
 	</div>
 
 </div>
@@ -33,7 +33,7 @@ classes: members-page
 		<img src="/assets/images/members/TranNgocDuy.jpeg" alt="Tran Ngoc Duy" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Tran Ngoc Duy</strong><br>
 		M1, UTokyo<br>
-		duy[at]csg.ci.i.u-tokyo.ac.jp
+		<code>duy[at]csg.ci.i.u-tokyo.ac.jp</code>
 	</div>
 
 </div>
@@ -46,28 +46,28 @@ classes: members-page
 		<img src="/assets/images/members/placeholder.svg" alt="Duong Minh Ngoc" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Duong Minh Ngoc</strong><br>
 		B3<br>
-		duongminhngoc2512
+		<code>duongminhngoc2512</code>
 	</div>
 
 	<div>
 		<img src="/assets/images/members/placeholder.svg" alt="Limpasuthum Pawit" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Limpasuthum Pawit</strong><br>
 		B2 (visiting)<br>
-		pawitlim
+		<code>pawitlim</code>
 	</div>
 
 	<div>
 		<img src="/assets/images/members/placeholder.svg" alt="Bancaya Roger Troy" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Bancaya Roger Troy</strong><br>
 		B3 (visiting)<br>
-		bancayarogertroy
+		<code>bancayarogertroy</code>
 	</div>
 
 	<div>
 		<img src="/assets/images/members/placeholder.svg" alt="Jumpei Saito" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Jumpei Saito</strong><br>
 		B3 (visiting)<br>
-		jumpei.saito
+		<code>jumpei.saito</code>
 	</div>
 
 </div>

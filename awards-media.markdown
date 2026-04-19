@@ -12,10 +12,12 @@ permalink: /awards-media/
 - 2013: Champion, Tokyo Start-up Weekend Contest
 - 2012: Runner-up, Vietnam Microsoft Imagine Cup
 
-## Media Coverage
-
-- Research outputs have appeared in major HCI and robotics venues (ACM CHI, UbiComp, ICRA, IROS).
-
 ## Press Releases
 
-- New press or outreach posts are announced through our News page and profile links.
+- 2025: Press release: [Learning the Nonlinear Dynamics of Soft Actuators with AI: Hysteresis-based Reservoir Computing Paving the Way for Robotic Grippers Capable of Delicate Movements](https://www.t.u-tokyo.ac.jp/en/press/pr2025-10-20-001)
+- 2025: Press release: [マルチエージェントAIによるゼロショット言語駆動ロボット把持システム開発～自然言語の指示に対応、実環境での安全なロボット操作を実現～](https://www.i.u-tokyo.ac.jp/news/press/2025/202510192686.shtml)
+
+## Media Coverage
+
+- 2017: Snake-like soft robot featured on [IEEE Spectrum Video Friday](https://spectrum.ieee.org/video-friday-curiosity-rover-giant-crab-robot-drone-umbrella)
+- Research outputs have appeared in major HCI and robotics venues (ACM CHI, UbiComp, ICRA, IROS).
