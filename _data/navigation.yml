@@ -1,16 +1,16 @@
 # Main navigation
 main:
-  - title: "About"
+  - title: "ABOUT"
     url: /
-  - title: "Members"
+  - title: "MEMBERS"
     url: /members/
-  - title: "Research"
+  - title: "RESEARCH"
     url: /research/
-  - title: "Publication"
+  - title: "PUBLICATIONS"
     url: /publication/
-  - title: "Awards & Media"
+  - title: "AWARDS & MEDIA"
     url: /awards-media/
-  - title: "News"
+  - title: "NEWS"
     url: /news/
-  - title: "Access"
+  - title: "ACCESS"
     url: /access/

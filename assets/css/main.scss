@@ -7,8 +7,17 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+$theme-accent-color: #a11c2f;
+
 body {
   font-size: 0.7rem;
+}
+
+.greedy-nav .site-title,
+.greedy-nav .site-title:visited,
+.greedy-nav .site-title:hover,
+.greedy-nav .site-title:focus {
+  color: $theme-accent-color;
 }
 
 .landing-page .page__inner-wrap {
@@ -20,17 +29,34 @@ body {
 }
 
 .greedy-nav .visible-links a {
-  color: #a11c2f;
+  color: $theme-accent-color;
+}
+
+.greedy-nav .visible-links a:hover,
+.greedy-nav .visible-links a:focus {
+  color: $theme-accent-color;
 }
 
 .greedy-nav .visible-links a:before {
-  background: #a11c2f;
+  background: $theme-accent-color;
+}
+
+.page__content h2 {
+  color: $theme-accent-color;
+}
+
+.page__content h1 {
+  color: $theme-accent-color;
+}
+
+.members-page .page__content strong {
+  color: $theme-accent-color;
 }
 
 /* Active menu item color only (no underline) */
 .greedy-nav .visible-links li.is-active > a,
 .greedy-nav .visible-links a.is-active {
-  color: #a11c2f;
+  color: $theme-accent-color;
   font-weight: 600;
 }
 

@@ -2,6 +2,7 @@
 layout: single
 title: ""
 permalink: /members/
+classes: members-page
 ---
 
 ## Faculty

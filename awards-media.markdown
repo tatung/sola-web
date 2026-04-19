@@ -6,7 +6,7 @@ permalink: /awards-media/
 
 Highlights of recognitions and media visibility related to SoLa group work.
 
-### Awards
+## Awards
 
 - 2026: Best Poster Award, IEEE RoboSoft 2026 Workshop: “Living with Robots Safely: Embodying Asimov’s First Law through Soft Robotics.”
 - 2021: Best Full Paper Award, ACM IDC
@@ -15,11 +15,11 @@ Highlights of recognitions and media visibility related to SoLa group work.
 - 2013: Champion, Tokyo Start-up Weekend Contest
 - 2012: Runner-up, Vietnam Microsoft Imagine Cup
 
-### Media Coverage
+## Media Coverage
 
 - Research outputs have appeared in major HCI and robotics venues (ACM CHI, UbiComp, ICRA, IROS).
 - Project and publication updates are maintained on [tungtd.com](https://tungtd.com/).
 
-### Press Releases
+## Press Releases
 
 - New press or outreach posts are announced through our News page and profile links.
