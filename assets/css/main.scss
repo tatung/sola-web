@@ -17,7 +17,11 @@ body {
   position: sticky;
   top: 0;
   z-index: 30;
-  background: #ffffff;
+  background: $theme-accent-color;
+}
+
+.greedy-nav {
+  background: $theme-accent-color;
 }
 
 @media (min-width: 80em) {
@@ -30,7 +34,7 @@ body {
 .greedy-nav .site-title:visited,
 .greedy-nav .site-title:hover,
 .greedy-nav .site-title:focus {
-  color: $theme-accent-color;
+  color: #ffffff;
 }
 
 .landing-page .page__inner-wrap {
@@ -42,16 +46,16 @@ body {
 }
 
 .greedy-nav .visible-links a {
-  color: $theme-accent-color;
+  color: #ffffff;
 }
 
 .greedy-nav .visible-links a:hover,
 .greedy-nav .visible-links a:focus {
-  color: $theme-accent-color;
+  color: #ffffff;
 }
 
 .greedy-nav .visible-links a:before {
-  background: $theme-accent-color;
+  background: #ffffff;
 }
 
 .page__content h2 {
@@ -69,13 +73,13 @@ body {
 /* Active menu item color only (no underline) */
 .greedy-nav .visible-links li.is-active > a,
 .greedy-nav .visible-links a.is-active {
-  color: $theme-accent-color;
+  color: #ffffff;
   font-weight: 600;
 }
 
 .greedy-nav .visible-links li.is-active > a:before,
 .greedy-nav .visible-links a.is-active:before {
-  transform: scaleX(0) translate3d(0, 0, 0);
+  transform: scaleX(1) translate3d(0, 0, 0);
 }
 
 .page__footer footer,
