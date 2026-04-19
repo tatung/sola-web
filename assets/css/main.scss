@@ -24,6 +24,23 @@ body {
   background: $theme-accent-color;
 }
 
+.greedy-nav__toggle .navicon,
+.greedy-nav__toggle .navicon:before,
+.greedy-nav__toggle .navicon:after {
+  background: #ffffff;
+}
+
+.greedy-nav__toggle:hover .navicon,
+.greedy-nav__toggle:hover .navicon:before,
+.greedy-nav__toggle:hover .navicon:after {
+  background: #ffffff;
+}
+
+.greedy-nav__toggle.close .navicon,
+.greedy-nav__toggle:hover.close .navicon {
+  background: transparent;
+}
+
 @media (min-width: 80em) {
   #main {
     max-width: 1400px;
