@@ -15,7 +15,6 @@ permalink: /awards-media/
 ## Media Coverage
 
 - Research outputs have appeared in major HCI and robotics venues (ACM CHI, UbiComp, ICRA, IROS).
-- Project and publication updates are maintained on [tungtd.com](https://tungtd.com/).
 
 ## Press Releases
 

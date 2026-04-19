@@ -79,5 +79,3 @@ permalink: /publication/
 - T. D. Ta, W. Wei, Q. D. Minh, Y. Kawahara, T. Asami, **"Modified Printer Driver to Improve Conductivity of Ink-jet Printed Silver Ink Pattern by Over-Printing"**, *IEICE General Conference 2014*.
 
 ---
-
-If you find any missing item, please check the canonical list at [tungtd.com](https://tungtd.com/) and let us know.
