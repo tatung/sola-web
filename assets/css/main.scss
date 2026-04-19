@@ -19,10 +19,18 @@ body {
   display: none;
 }
 
+.greedy-nav .visible-links a {
+  color: #a11c2f;
+}
+
+.greedy-nav .visible-links a:before {
+  background: #a11c2f;
+}
+
 /* Active menu item color only (no underline) */
 .greedy-nav .visible-links li.is-active > a,
 .greedy-nav .visible-links a.is-active {
-  color: #111827;
+  color: #a11c2f;
   font-weight: 600;
 }
 
