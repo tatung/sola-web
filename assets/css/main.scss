@@ -110,6 +110,48 @@ body {
   color: $theme-accent-color;
 }
 
+.publication-page .publication-tag {
+  display: inline-block;
+  margin-left: 0.45rem;
+  margin-bottom: 0.2rem;
+  padding: 0.08rem 0.5rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: 0.72em;
+  font-weight: 600;
+  vertical-align: baseline;
+}
+
+.publication-page .publication-tag--journals {
+  background: #e7f0ff;
+  border-color: #7aa4e8;
+  color: #1f4f93;
+}
+
+.publication-page .publication-tag--international-conferences {
+  background: #e5f7ee;
+  border-color: #78c79a;
+  color: #1b6d43;
+}
+
+.publication-page .publication-tag--international-workshops-demos {
+  background: #fff1df;
+  border-color: #e6b46a;
+  color: #9a5c10;
+}
+
+.publication-page .publication-tag--domestic-conferences {
+  background: #f1eaff;
+  border-color: #b197de;
+  color: #65429a;
+}
+
+.publication-page .publication-tag--speeches {
+  background: #fde8eb;
+  border-color: #dd8d9a;
+  color: #9d3043;
+}
+
 /* Active menu item color only (no underline) */
 .greedy-nav .visible-links li.is-active > a,
 .greedy-nav .visible-links a.is-active {
