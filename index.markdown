@@ -21,8 +21,8 @@ classes: landing-page
 			{% endif %}
 		{% endfor %}
 		<div class="research-slider__dots" role="tablist" aria-label="Research image selector"></div>
-		<button class="research-slider__nav research-slider__nav--prev" type="button" data-slider-prev aria-label="Previous slide">&lt;</button>
-		<button class="research-slider__nav research-slider__nav--next" type="button" data-slider-next aria-label="Next slide">&gt;</button>
+		<button class="research-slider__nav research-slider__nav--prev" type="button" data-slider-prev aria-label="Previous slide">＜</button>
+		<button class="research-slider__nav research-slider__nav--next" type="button" data-slider-next aria-label="Next slide">＞</button>
 	</div>
 </div>
 

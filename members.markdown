@@ -9,14 +9,14 @@ permalink: /members/
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;">
 
 	<div>
-		<img src="/assets/images/members/tung_id_sq.png" alt="Tung D. Ta" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
+		<img src="/assets/images/members/TaDucTung.jpeg" alt="Tung D. Ta" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Tung D. Ta</strong><br>
 		Associate Professor<br>
 		tung
 	</div>
 
 	<div>
-		<img src="/assets/images/members/placeholder.svg" alt="Yeman Fan" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
+		<img src="/assets/images/members/YemanFan.jpeg" alt="Yeman Fan" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Yeman Fan</strong><br>
 		Project Researcher<br>
 		yemanfan
@@ -29,7 +29,7 @@ permalink: /members/
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
 
 	<div>
-		<img src="/assets/images/members/placeholder.svg" alt="Tran Ngoc Duy" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
+		<img src="/assets/images/members/TranNgocDuy.jpeg" alt="Tran Ngoc Duy" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
 		<strong>Tran Ngoc Duy</strong><br>
 		M1, UTokyo<br>
 		duy[at]csg.ci.i.u-tokyo.ac.jp
@@ -76,7 +76,8 @@ permalink: /members/
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
 
 	<div>
-		<strong>Nguyen Khac nam</strong><br>
+		<img src="/assets/images/members/NguyenKhacNam.jpeg" alt="Nguyen Khac Nam" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
+		<strong>Nguyen Khac Nam</strong><br>
 		Intern, UTokyo<br>
 	</div>
 
