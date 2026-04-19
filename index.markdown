@@ -10,7 +10,7 @@ classes: landing-page
 	<div class="research-slider__viewport">
 		{% assign slider_items = site.research | sort: "order" %}
 		{% for item in slider_items limit: 10 %}
-			{% if item.image %}
+			{% if item.image and item.featured %}
 			<a class="research-slide{% if forloop.first %} is-active{% endif %}" href="{{ item.url | relative_url }}" aria-hidden="{% unless forloop.first %}true{% else %}false{% endunless %}">
 				<img src="{{ item.image }}" alt="{{ item.title }}" loading="lazy" />
 				<div class="research-slide__caption">

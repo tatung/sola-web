@@ -260,7 +260,7 @@ body {
   border-radius: 12px;
   overflow: hidden;
   background: #0f172a;
-  min-height: 260px;
+  min-height: 300px;
   margin-top: 0;
 }
 
@@ -270,7 +270,7 @@ body {
 
 .research-slider--fullbleed .research-slider__viewport {
   border-radius: 0;
-  min-height: min(56vw, 620px);
+  min-height: min(60vw, 700px);
 }
 
 .research-slide {
@@ -292,7 +292,7 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
-    min-height: 260px;
+    min-height: 300px;
   }
 }
 
@@ -413,18 +413,18 @@ body {
 
 @media (min-width: 901px) {
   .research-slider__viewport {
-    min-height: 340px;
+    min-height: 380px;
   }
 
   .research-slider--fullbleed .research-slider__viewport {
-    min-height: min(42vw, 640px);
+    min-height: min(46vw, 720px);
   }
 
   .research-slide img {
-    min-height: 340px;
+    min-height: 380px;
   }
 
   .research-slider--fullbleed .research-slide img {
-    min-height: min(42vw, 640px);
+    min-height: min(46vw, 720px);
   }
 }
