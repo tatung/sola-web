@@ -28,6 +28,11 @@ body {
   box-shadow: none;
 }
 
+.masthead__inner-wrap {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
 .greedy-nav {
   background: $theme-accent-color;
 }
@@ -61,6 +66,12 @@ body {
 .greedy-nav .site-title:focus {
   color: #ffffff;
   white-space: pre-line;
+  font-size: 0.82rem;
+  line-height: 1.1;
+}
+
+.site-logo img {
+  max-height: 1.9rem;
 }
 
 .landing-page .page__inner-wrap {
@@ -73,7 +84,8 @@ body {
 
 .greedy-nav .visible-links a {
   color: #ffffff;
-  padding-bottom: 0.2rem;
+  padding-top: 0.05rem;
+  padding-bottom: 0.15rem;
 }
 
 .greedy-nav .visible-links a:hover,
