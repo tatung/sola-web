@@ -22,7 +22,7 @@ permalink: /news/
 - March 15, 2024: [Xia Yuanhui presented at the 86th IPSJ National Convention](https://tatung2112.notion.site/Xia-Yuanhui-presented-at-the-86th-IPSJ-National-Convention-0e9983f8e11c4d6d8a1639cfaf52a5dd?pvs=25)
 - April 1, 2023: [We are awarded the Grant-in-Aids for Scientific Research B (基盤B)](https://tatung2112.notion.site/We-are-awarded-the-Grant-in-Aids-for-Scientific-Research-B-B-22324b0dd81d4d46a1cd3707aab0796e?pvs=25)
 
-## Announcements
+<!-- ## Announcements
 
 - Student recruitment: Master/PhD opportunities are announced on [tungtd.com](https://tungtd.com/).
-- For complete historical updates, visit the Notion news board: [SOLA News](https://tatung2112.notion.site/1bfd1602ac604bbfac175ddd4e68516a?v=5534f74ea30440e6b937d053d6ea2c97)
+- For complete historical updates, visit the Notion news board: [SOLA News](https://tatung2112.notion.site/1bfd1602ac604bbfac175ddd4e68516a?v=5534f74ea30440e6b937d053d6ea2c97) -->

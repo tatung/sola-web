@@ -3,9 +3,6 @@ layout: single
 title: ""
 permalink: /awards-media/
 ---
-
-Highlights of recognitions and media visibility related to SoLa group work.
-
 ## Awards
 
 - 2026: Best Poster Award, IEEE RoboSoft 2026 Workshop: “Living with Robots Safely: Embodying Asimov’s First Law through Soft Robotics.”

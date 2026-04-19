@@ -13,6 +13,19 @@ body {
   font-size: 0.7rem;
 }
 
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: #ffffff;
+}
+
+@media (min-width: 80em) {
+  #main {
+    max-width: 1400px;
+  }
+}
+
 .greedy-nav .site-title,
 .greedy-nav .site-title:visited,
 .greedy-nav .site-title:hover,
