@@ -152,6 +152,18 @@ body {
   color: #9d3043;
 }
 
+/* Hide visible-links when hamburger is active (mobile) */
+.greedy-nav:has(.greedy-nav__toggle:not(.hidden)) ul.visible-links {
+  display: none !important;
+}
+
+/* Keep hamburger pinned to the right on mobile */
+@media (max-width: 767px) {
+  .greedy-nav__toggle {
+    margin-left: 0;
+  }
+}
+
 /* Mobile: active page label shown to the left of the hamburger icon */
 .mobile-nav-label {
   display: none;
@@ -159,12 +171,16 @@ body {
   font-size: 0.8rem;
   font-weight: 600;
   white-space: nowrap;
+  max-width: 48vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: auto;
   margin-right: 0.25rem;
   align-self: center;
 }
 
 @media (max-width: 767px) {
-  .mobile-nav-label {
+  .greedy-nav:has(.greedy-nav__toggle:not(.hidden)) .mobile-nav-label {
     display: flex;
     align-items: center;
   }
