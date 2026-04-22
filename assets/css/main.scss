@@ -152,6 +152,24 @@ body {
   color: #9d3043;
 }
 
+/* Mobile: active page label shown to the left of the hamburger icon */
+.mobile-nav-label {
+  display: none;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+  margin-right: 0.25rem;
+  align-self: center;
+}
+
+@media (max-width: 767px) {
+  .mobile-nav-label {
+    display: flex;
+    align-items: center;
+  }
+}
+
 /* Active menu item color only (no underline) */
 .greedy-nav .visible-links li.is-active > a,
 .greedy-nav .visible-links a.is-active {
