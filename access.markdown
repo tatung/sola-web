@@ -18,6 +18,6 @@ permalink: /access/
 
 ## Contact Information
 
-- Email: `tung[at]sfc.keio.jp`
+- Email: `tung[at]sfc.keio.ac.jp`
 
 For admissions and research inquiries, please include your background, interests, and desired research theme.
