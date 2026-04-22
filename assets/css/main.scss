@@ -168,15 +168,22 @@ body {
 .mobile-nav-label {
   display: none;
   color: #ffffff;
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
   white-space: nowrap;
   max-width: 48vw;
   overflow: hidden;
   text-overflow: ellipsis;
   margin-left: auto;
   margin-right: 0.25rem;
+  padding-top: 0.05rem;
+  padding-bottom: 0.15rem;
   align-self: center;
+}
+
+.mobile-nav-label.is-active {
+  font-weight: 600;
 }
 
 @media (max-width: 767px) {

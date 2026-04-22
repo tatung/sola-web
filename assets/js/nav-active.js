@@ -123,7 +123,10 @@
     var label = document.querySelector(".mobile-nav-label");
     if (!label) return;
     var title = getActiveTitle();
-    if (title) label.textContent = title;
+    if (title) {
+      label.textContent = title;
+      label.classList.add("is-active");
+    }
   }
 
   function init() {
