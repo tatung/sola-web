@@ -36,3 +36,29 @@ The group is led by **Tung D. Ta**, currently an Associate Professor at Keio Uni
 - Printable and flexible electronics for robotic systems
 - Fabrication-aware mechanisms for locomotion and manipulation
 - Human-centered interactive systems with novel physical interfaces
+
+## News
+
+{% assign newest_news = site.data.news | sort: "date" | reverse | slice: 0, 5 %}
+{% for item in newest_news %}
+{% if item.url %}
+- {{ item.date }}: [{{ item.title }}]({{ item.url }})
+{% else %}
+- {{ item.date }}: {{ item.title }}
+{% endif %}
+{% endfor %}
+
+<p style="text-align: right;"><a href="{{ '/news/' | relative_url }}">More</a></p>
+
+## Awards and Media
+
+{% assign newest_awards_media = site.data.awards_media | sort: "date" | reverse | slice: 0, 5 %}
+{% for item in newest_awards_media %}
+{% if item.url %}
+- {{ item.year }}: [{{ item.text }}]({{ item.url }})
+{% else %}
+- {{ item.year }}: {{ item.text }}
+{% endif %}
+{% endfor %}
+
+<p style="text-align: right;"><a href="{{ '/awards-media/' | relative_url }}">More</a></p>

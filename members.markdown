@@ -11,7 +11,7 @@ classes: members-page
 
 	<div>
 		<img src="/assets/images/members/TaDucTung.jpeg" alt="Tung D. Ta" style="width:100%;max-width:220px;height:auto;border-radius:8px;display:block;margin-bottom:10px;" />
-		<strong>Tung D. Ta</strong><br>
+		<strong><a href="https://tungtd.com" target="_blank" rel="noopener">Tung D. Ta</a></strong><br>
 		Associate Professor<br>
 		<code>tung</code>
 	</div>
